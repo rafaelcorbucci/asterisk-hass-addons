@@ -1,12 +1,12 @@
-name: Asterisk
+name: Asterisk - test
 version: 6.2.0
 breaking_versions:
   - 6.0.0
   - 5.1.0
   - 5.0.0
-slug: asterisk
+slug: asterisk-test
 description: PBX server for SIP devices like doorbells and phones
-url: https://github.com/TECH7Fox/asterisk-hass-addons
+url: https://github.com/rafaelcorbucci/asterisk-hass-addons
 image: ghcr.io/tech7fox/asterisk-hass-addon
 arch:
   - aarch64
