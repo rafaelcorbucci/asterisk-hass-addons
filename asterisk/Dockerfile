@@ -128,7 +128,7 @@ RUN cp --verbose ../asterisk-opus*/codecs/* codecs; \
 WORKDIR /usr/src/app_rtsp_sip
 
 # Force it to download the live master branch files (which contain the 3.2 code changes)
-RUN curl -fsSL "https://github.com" | \
+RUN curl -fsSL "https://github.com/tommyjlong/app_rtsp_sip/archive/refs/tags/v3.2.tar.gz" | \
         tar --strip-components 1 -xz; \
     cp -f app_rtsp_sip.c /usr/src/asterisk/apps
 
