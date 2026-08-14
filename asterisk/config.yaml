@@ -7,7 +7,7 @@ breaking_versions:
 slug: asterisk-test
 description: PBX server for SIP devices like doorbells and phones
 url: https://github.com/rafaelcorbucci/asterisk-hass-addons
-image: ghcr.io/tech7fox/asterisk-hass-addon
+build: {}
 arch:
   - aarch64
   - amd64
